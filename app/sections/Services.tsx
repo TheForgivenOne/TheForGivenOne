@@ -143,15 +143,15 @@ export default function Services() {
           <p className="text-[#888899] mb-6">
             Need something specific? Let&apos;s discuss your project requirements.
           </p>
-          <a
-            href="#contact"
+          <button
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-[#00ff88] transition-colors font-mono text-sm"
           >
             <span>~$ start-project</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </a>
+          </button>
         </div>
       </div>
     </section>

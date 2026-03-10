@@ -71,21 +71,21 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
-            <a
-              href="#projects"
+            <button
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="btn-primary inline-flex items-center justify-center gap-2 text-sm sm:text-base"
             >
               <span>View Projects</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
-            </a>
-            <a
-              href="#contact"
+            </button>
+            <button
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-4 sm:px-6 py-3 border border-[#00d4ff]/30 rounded text-[#00d4ff] hover:bg-[#00d4ff]/10 hover:border-[#00d4ff] transition-all duration-300 text-sm sm:text-base"
             >
               Get in Touch
-            </a>
+            </button>
           </div>
 
           {/* Tech stack badges */}
