@@ -113,12 +113,12 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={service.id}
-              className={`card-hover bg-[#111118] rounded-lg p-6 sm:p-8 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+              className={`card-hover card-glow bg-[#111118] rounded-lg p-6 sm:p-8 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               style={{ transitionDelay: `${index * 150}ms` }}
             >
               <div className="flex items-center justify-between mb-4 sm:mb-6">
                 <span className="font-mono text-xs sm:text-sm text-[#00d4ff]/50">{service.id}</span>
-                <div className="text-[#00d4ff] scale-90 sm:scale-100">{service.icon}</div>
+                <div className="text-[#00d4ff] scale-90 sm:scale-100 icon-hover">{service.icon}</div>
               </div>
               
               <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-[#e0e0e8]">

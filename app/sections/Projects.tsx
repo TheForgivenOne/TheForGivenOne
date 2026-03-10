@@ -95,7 +95,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className={`group relative card-hover bg-[#111118] rounded-lg overflow-hidden transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+              className={`group relative card-hover card-glow bg-[#111118] rounded-lg overflow-hidden transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               {/* Card content */}
@@ -129,7 +129,7 @@ export default function Projects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs font-mono bg-[#1a1a24] text-[#888899] px-1.5 sm:px-2 py-0.5 sm:py-1 rounded"
+                      className="text-xs font-mono bg-[#1a1a24] text-[#888899] px-1.5 sm:px-2 py-0.5 sm:py-1 rounded transition-all duration-300 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff]"
                     >
                       {tag}
                     </span>
