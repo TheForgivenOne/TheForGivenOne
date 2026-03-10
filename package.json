@@ -10,7 +10,8 @@
     "dev:vinext": "vite dev --port 3001",
     "build:vinext": "vite build",
     "deploy:cf": "vinext deploy",
-    "deploy:gh": "next build && touch dist/.nojekyll",
+    "build:gh": "next build && touch dist/.nojekyll",
+    "deploy:gh": "npm run build:gh",
     "deploy": "echo 'Use deploy:gh for GitHub Pages or deploy:cf for Cloudflare Workers'"
   },
   "dependencies": {
