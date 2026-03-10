@@ -35,14 +35,16 @@ Built with:
 
 ### 📊 GitHub Stats
 
+> Note: Stats are generated via GitHub's public API. If stats don't load, [deploy your own instance](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own) for reliability.
+
 <div align="center">
   
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TheForgivenOne&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0f&title_color=00d4ff&icon_color=00ff88&text_color=e0e0e8)
-  
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TheForgivenOne&theme=dark&hide_border=true&background=0a0a0f&stroke=00d4ff&ring=00d4ff&fire=00ff88&currStreakNum=00d4ff&sideNums=00d4ff&currStreakLabel=e0e0e8&sideLabels=e0e0e8&dates=888899)
-  
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheForgivenOne&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0f&title_color=00d4ff&text_color=e0e0e8)
-  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TheForgivenOne&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0f&title_color=00d4ff&icon_color=00ff88&text_color=e0e0e8&cache_seconds=3600)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TheForgivenOne&theme=dark&hide_border=true&background=0a0a0f&stroke=00d4ff&ring=00d4ff&fire=00ff88&currStreakNum=00d4ff&sideNums=00d4ff&currStreakLabel=e0e0e8&sideLabels=e0e0e8&dates=888899)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheForgivenOne&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0f&title_color=00d4ff&text_color=e0e0e8&cache_seconds=3600)
+
 </div>
 
 ### 📫 Connect With Me
